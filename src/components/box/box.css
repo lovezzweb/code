@@ -1,0 +1,171 @@
+.box{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.am-input-extra{
+    display: none;
+}
+section{
+    flex:1;
+    overflow-y: scroll;
+    background: #eee;
+}
+.footer{
+    width:100%;
+    height:50px;
+    border-top:solid 1px #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home .text{
+    width:100%;
+    height:60px;
+    border-radius: 10px;
+    background: #337ab7;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .text input{
+    width:80%;
+    height:70%;
+    background: none;
+    border:solid 1px#000;
+    border-radius: 5px;
+    color:#ccc;
+    text-indent: 24px;
+}
+.home .text span{
+    color:#fff;
+    font-size: 14px;
+}
+.home .title{
+    width:100%;
+    height:100px;
+    margin:20px 0;
+}
+.home .title p{
+    width:80px;
+    height:80px;
+    text-align: center;
+    line-height: 80px;
+    background: #ccc;
+    border-radius: 10px;
+    margin:0 auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+.home .list{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-top:20px;
+    background: #fff;
+}
+.home .list li{
+    width:100%;
+    height:50px;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.home .list li span:nth-child(1){
+    color:#666;
+}
+.home .list li span:nth-child(2){
+    color:#8a6de9;
+    font-weight: bold;
+}
+.detail{
+    width:100%;
+    height:auto;
+    background: #f2f2f2;
+}
+.detail li{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-indent: 24px;
+    font-size: 16px;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    padding:0 10px;
+}
+.submit .am-list-item{
+    padding-top:20px;
+    background:#eee;
+}
+.submit .btns{
+    width:100%;
+    height:50px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.submit .btns a{
+    width:50px;
+    height:30px;
+    line-height: 30px;
+    margin-right:10px;
+}
+.submit .btns span{
+    font-size: 12px;
+}
+.computed{
+    width:100%;
+    height:auto;
+}
+.computed p{
+    width:200px;
+    height:40px;
+    margin:20px auto;
+    text-align: center;
+    line-height: 40px;
+    background: #ccc;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    line-height: 34px;
+}
+
+.info td {
+    background-color: #d9edf7;
+    text-align: center;
+}
+
+tr td {
+    border: 1px solid #ddd;
+}
+.manger .am-list-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
